@@ -42,7 +42,7 @@ struct LogInView: View {
                     .foregroundStyle(Color.white)
                     .frame(width: UIScreen.main.bounds.width - 70, height: 48)
                 }
-                .background(Color.blue)
+                .background(Color(red: 34/255, green: 73/255, blue: 82/255))
                 .clipShape(RoundedRectangle(cornerRadius: 15))
                 .padding(.top, 24)
                 .alert(item: $viewModel.errorMessage) { errorMessage in
@@ -52,7 +52,7 @@ struct LogInView: View {
                 Spacer()
 
                 NavigationLink {
-                    InsuranceView()
+                    SignUpView()
                 } label: {
                     HStack(spacing: 3) {
                         Text("Don't have an account?")
@@ -60,6 +60,7 @@ struct LogInView: View {
                             .fontWeight(.bold)
                     }
                     .font(.system(size: 14))
+                    .foregroundStyle(Color(red: 235/255, green: 136/255, blue: 31/255))
                 }
             }
         }
@@ -68,4 +69,8 @@ struct LogInView: View {
 
 extension String: Identifiable {
     public var id: String { self }
+}
+
+#Preview {
+    LogInView()
 }

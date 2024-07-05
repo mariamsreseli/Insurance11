@@ -21,6 +21,7 @@
 		0B86274D2C37340A00A83F48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86274C2C37340A00A83F48 /* User.swift */; };
 		0B90A5912C383F7900088CBA /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90A5902C383F7900088CBA /* AccountViewModel.swift */; };
 		0B90A5932C386EDE00088CBA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90A5922C386EDE00088CBA /* TabBarView.swift */; };
+		0B90A5C92C38A66B00088CBA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90A5C82C38A66B00088CBA /* DetailsView.swift */; };
 		0BE8BB732C37DA5200091A5E /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB722C37DA5200091A5E /* LogInModel.swift */; };
 		0BE8BB752C37DA6B00091A5E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB742C37DA6B00091A5E /* Networking.swift */; };
 		0BE8BB772C37DA8900091A5E /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB762C37DA8900091A5E /* LogInViewModel.swift */; };
@@ -47,6 +48,7 @@
 		0B86274C2C37340A00A83F48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0B90A5902C383F7900088CBA /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		0B90A5922C386EDE00088CBA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		0B90A5C82C38A66B00088CBA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		0BE8BB722C37DA5200091A5E /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
 		0BE8BB742C37DA6B00091A5E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		0BE8BB762C37DA8900091A5E /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		0B86273B2C36ACDC00A83F48 /* Details Page */ = {
 			isa = PBXGroup;
 			children = (
+				0B90A5C82C38A66B00088CBA /* DetailsView.swift */,
 			);
 			path = "Details Page";
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				0B90A5912C383F7900088CBA /* AccountViewModel.swift in Sources */,
 				0BE8BB752C37DA6B00091A5E /* Networking.swift in Sources */,
 				0B86272B2C36AC2A00A83F48 /* AboutView.swift in Sources */,
+				0B90A5C92C38A66B00088CBA /* DetailsView.swift in Sources */,
 				0BE8BB732C37DA5200091A5E /* LogInModel.swift in Sources */,
 				0BE8BB7B2C37DCA600091A5E /* SignUpViewModel.swift in Sources */,
 				0BE8BB802C38214E00091A5E /* InsuranceView.swift in Sources */,
