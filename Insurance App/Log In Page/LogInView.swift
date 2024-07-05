@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LogInView: View {
-    @State private var email = ""
-    @State private var password = ""
+    @StateObject private var viewModel = LoginViewModel()
+    @State private var navigateToServiceView = false
     
     var body: some View {
         NavigationStack {
@@ -19,23 +19,23 @@ struct LogInView: View {
                     .scaledToFill()
                     .frame(width: 100, height: 120)
                     .padding(.vertical, 32)
-                
+
                 VStack(spacing: 24) {
-                    InputView(text: $email, title: "Email Address", placeholder: "name@example.com")
+                    InputView(text: $viewModel.username, title: "Username", placeholder: "Enter your username")
                         .autocapitalization(.none)
-                    
-                    InputView(text: $password, title: "Password", placeholder: "Enter your password", isSecureField: true)
+
+                    InputView(text: $viewModel.password, title: "Password", placeholder: "Enter your password", isSecureField: true)
                 }
                 .padding(.horizontal)
                 .padding(.top, 12)
-                
+
                 Spacer()
-                
-                Button {
-                    print("Log user in..")
+
+                NavigationLink {
+                    InsuranceView()
                 } label: {
                     HStack {
-                        Text("SIGN IN")
+                        Text("Log In")
                             .fontWeight(.semibold)
                         Image(systemName: "arrow.right")
                     }
@@ -45,10 +45,14 @@ struct LogInView: View {
                 .background(Color.blue)
                 .clipShape(RoundedRectangle(cornerRadius: 15))
                 .padding(.top, 24)
-                
+                .alert(item: $viewModel.errorMessage) { errorMessage in
+                    Alert(title: Text("Login Error"), message: Text(errorMessage), dismissButton: .default(Text("OK")))
+                }
+
                 Spacer()
-                
+
                 NavigationLink {
+                    InsuranceView()
                 } label: {
                     HStack(spacing: 3) {
                         Text("Don't have an account?")
@@ -56,13 +60,12 @@ struct LogInView: View {
                             .fontWeight(.bold)
                     }
                     .font(.system(size: 14))
-                    
                 }
             }
         }
     }
 }
 
-#Preview {
-    LogInView()
+extension String: Identifiable {
+    public var id: String { self }
 }

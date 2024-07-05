@@ -14,10 +14,21 @@
 		0B86273F2C36AD7100A83F48 /* AboutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86273E2C36AD7100A83F48 /* AboutModel.swift */; };
 		0B8627412C36AD7F00A83F48 /* AboutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8627402C36AD7F00A83F48 /* AboutViewModel.swift */; };
 		0B8627432C36D1B200A83F48 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8627422C36D1B200A83F48 /* LogInView.swift */; };
-		0B8627452C36D1BF00A83F48 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8627442C36D1BF00A83F48 /* SignInView.swift */; };
+		0B8627452C36D1BF00A83F48 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8627442C36D1BF00A83F48 /* SignUpView.swift */; };
 		0B8627472C36E26600A83F48 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8627462C36E26600A83F48 /* InputView.swift */; };
 		0B8627492C36F39C00A83F48 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8627482C36F39C00A83F48 /* AccountView.swift */; };
 		0B86274B2C36F75300A83F48 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86274A2C36F75300A83F48 /* SettingsRowView.swift */; };
+		0B86274D2C37340A00A83F48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86274C2C37340A00A83F48 /* User.swift */; };
+		0B90A5912C383F7900088CBA /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90A5902C383F7900088CBA /* AccountViewModel.swift */; };
+		0B90A5932C386EDE00088CBA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90A5922C386EDE00088CBA /* TabBarView.swift */; };
+		0BE8BB732C37DA5200091A5E /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB722C37DA5200091A5E /* LogInModel.swift */; };
+		0BE8BB752C37DA6B00091A5E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB742C37DA6B00091A5E /* Networking.swift */; };
+		0BE8BB772C37DA8900091A5E /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB762C37DA8900091A5E /* LogInViewModel.swift */; };
+		0BE8BB792C37DC9C00091A5E /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB782C37DC9C00091A5E /* SignUpModel.swift */; };
+		0BE8BB7B2C37DCA600091A5E /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB7A2C37DCA600091A5E /* SignUpViewModel.swift */; };
+		0BE8BB802C38214E00091A5E /* InsuranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB7F2C38214E00091A5E /* InsuranceView.swift */; };
+		0BE8BB822C38266000091A5E /* InsuranceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB812C38266000091A5E /* InsuranceModel.swift */; };
+		0BE8BB842C38266A00091A5E /* InsuranceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BB832C38266A00091A5E /* InsuranceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +40,22 @@
 		0B86273E2C36AD7100A83F48 /* AboutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutModel.swift; sourceTree = "<group>"; };
 		0B8627402C36AD7F00A83F48 /* AboutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewModel.swift; sourceTree = "<group>"; };
 		0B8627422C36D1B200A83F48 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
-		0B8627442C36D1BF00A83F48 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0B8627442C36D1BF00A83F48 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		0B8627462C36E26600A83F48 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		0B8627482C36F39C00A83F48 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		0B86274A2C36F75300A83F48 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		0B86274C2C37340A00A83F48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0B90A5902C383F7900088CBA /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		0B90A5922C386EDE00088CBA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		0BE8BB722C37DA5200091A5E /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
+		0BE8BB742C37DA6B00091A5E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		0BE8BB762C37DA8900091A5E /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		0BE8BB782C37DC9C00091A5E /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		0BE8BB7A2C37DCA600091A5E /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		0BE8BB7C2C37E0B000091A5E /* Insurance-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Insurance-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0BE8BB7F2C38214E00091A5E /* InsuranceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceView.swift; sourceTree = "<group>"; };
+		0BE8BB812C38266000091A5E /* InsuranceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceModel.swift; sourceTree = "<group>"; };
+		0BE8BB832C38266A00091A5E /* InsuranceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +88,12 @@
 		0B8627272C36AC2A00A83F48 /* Insurance App */ = {
 			isa = PBXGroup;
 			children = (
+				0BE8BB7C2C37E0B000091A5E /* Insurance-App-Info.plist */,
 				0B8627282C36AC2A00A83F48 /* Insurance_AppApp.swift */,
 				0B8627362C36AC4800A83F48 /* About Page */,
 				0B8627372C36AC6E00A83F48 /* Log In Page */,
 				0B8627382C36AC8E00A83F48 /* Sign In Page */,
-				0B8627392C36ACA900A83F48 /* Products Page */,
-				0B86273A2C36ACC400A83F48 /* Particular Services Page */,
+				0B86273A2C36ACC400A83F48 /* Services Page */,
 				0B86273B2C36ACDC00A83F48 /* Details Page */,
 				0B86273D2C36ACF700A83F48 /* Account Page */,
 				0B86272C2C36AC2C00A83F48 /* Assets.xcassets */,
@@ -93,6 +116,7 @@
 				0B86273E2C36AD7100A83F48 /* AboutModel.swift */,
 				0B86272A2C36AC2A00A83F48 /* AboutView.swift */,
 				0B8627402C36AD7F00A83F48 /* AboutViewModel.swift */,
+				0B90A5922C386EDE00088CBA /* TabBarView.swift */,
 			);
 			path = "About Page";
 			sourceTree = "<group>";
@@ -101,7 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				0B8627422C36D1B200A83F48 /* LogInView.swift */,
+				0BE8BB722C37DA5200091A5E /* LogInModel.swift */,
+				0BE8BB762C37DA8900091A5E /* LogInViewModel.swift */,
 				0B8627462C36E26600A83F48 /* InputView.swift */,
+				0BE8BB742C37DA6B00091A5E /* Networking.swift */,
 			);
 			path = "Log In Page";
 			sourceTree = "<group>";
@@ -109,23 +136,21 @@
 		0B8627382C36AC8E00A83F48 /* Sign In Page */ = {
 			isa = PBXGroup;
 			children = (
-				0B8627442C36D1BF00A83F48 /* SignInView.swift */,
+				0B8627442C36D1BF00A83F48 /* SignUpView.swift */,
+				0BE8BB782C37DC9C00091A5E /* SignUpModel.swift */,
+				0BE8BB7A2C37DCA600091A5E /* SignUpViewModel.swift */,
 			);
 			path = "Sign In Page";
 			sourceTree = "<group>";
 		};
-		0B8627392C36ACA900A83F48 /* Products Page */ = {
+		0B86273A2C36ACC400A83F48 /* Services Page */ = {
 			isa = PBXGroup;
 			children = (
+				0BE8BB7F2C38214E00091A5E /* InsuranceView.swift */,
+				0BE8BB812C38266000091A5E /* InsuranceModel.swift */,
+				0BE8BB832C38266A00091A5E /* InsuranceViewModel.swift */,
 			);
-			path = "Products Page";
-			sourceTree = "<group>";
-		};
-		0B86273A2C36ACC400A83F48 /* Particular Services Page */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Particular Services Page";
+			path = "Services Page";
 			sourceTree = "<group>";
 		};
 		0B86273B2C36ACDC00A83F48 /* Details Page */ = {
@@ -139,7 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				0B8627482C36F39C00A83F48 /* AccountView.swift */,
+				0B86274C2C37340A00A83F48 /* User.swift */,
 				0B86274A2C36F75300A83F48 /* SettingsRowView.swift */,
+				0B90A5902C383F7900088CBA /* AccountViewModel.swift */,
 			);
 			path = "Account Page";
 			sourceTree = "<group>";
@@ -214,14 +241,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8627452C36D1BF00A83F48 /* SignInView.swift in Sources */,
+				0BE8BB822C38266000091A5E /* InsuranceModel.swift in Sources */,
+				0B8627452C36D1BF00A83F48 /* SignUpView.swift in Sources */,
+				0BE8BB792C37DC9C00091A5E /* SignUpModel.swift in Sources */,
 				0B8627472C36E26600A83F48 /* InputView.swift in Sources */,
 				0B8627432C36D1B200A83F48 /* LogInView.swift in Sources */,
+				0B90A5912C383F7900088CBA /* AccountViewModel.swift in Sources */,
+				0BE8BB752C37DA6B00091A5E /* Networking.swift in Sources */,
 				0B86272B2C36AC2A00A83F48 /* AboutView.swift in Sources */,
+				0BE8BB732C37DA5200091A5E /* LogInModel.swift in Sources */,
+				0BE8BB7B2C37DCA600091A5E /* SignUpViewModel.swift in Sources */,
+				0BE8BB802C38214E00091A5E /* InsuranceView.swift in Sources */,
 				0B8627492C36F39C00A83F48 /* AccountView.swift in Sources */,
 				0B86273F2C36AD7100A83F48 /* AboutModel.swift in Sources */,
 				0B8627412C36AD7F00A83F48 /* AboutViewModel.swift in Sources */,
 				0B8627292C36AC2A00A83F48 /* Insurance_AppApp.swift in Sources */,
+				0B86274D2C37340A00A83F48 /* User.swift in Sources */,
+				0BE8BB772C37DA8900091A5E /* LogInViewModel.swift in Sources */,
+				0BE8BB842C38266A00091A5E /* InsuranceViewModel.swift in Sources */,
+				0B90A5932C386EDE00088CBA /* TabBarView.swift in Sources */,
 				0B86274B2C36F75300A83F48 /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +396,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Insurance App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Insurance-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -386,6 +425,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Insurance App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Insurance-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -61,7 +61,7 @@ struct AboutView: View {
                                     )
                             }
                             
-                            NavigationLink(destination: SignInView()) {
+                            NavigationLink(destination: SignUpView()) {
                                 Text("Sign In")
                                     .font(.headline)
                                     .padding()
@@ -72,6 +72,7 @@ struct AboutView: View {
                                             .frame(width: 250)
                                     )
                             }
+
                             
                         }
                         

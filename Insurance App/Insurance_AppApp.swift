@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Insurance_AppApp: App {
+    @AppStorage("accessToken") private var accessToken = ""
+    
     var body: some Scene {
         WindowGroup {
-            AboutView()
+            TabBarView()
         }
     }
 }
