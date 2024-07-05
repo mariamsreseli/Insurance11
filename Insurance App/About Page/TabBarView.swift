@@ -24,7 +24,7 @@ struct TabBarView: View {
                     Text("Insurance")
                 }
 
-            AccountView(isLoggedIn: $isLoggedIn)
+            AccountView()
                 .tabItem {
                     Image(systemName: "person")
                     Text("Account")
